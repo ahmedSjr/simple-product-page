@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Market</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <div>
+      <header class="header">
+        <div class="header-text-box">
           <h1>Engage more users & supercharge your landing conversion rates</h1>
-          <p>
+          <p class="header-text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
             dolor, iste ratione adipisci molestias libero autem ut laudantium
             iusto est totam cupiditate. Ducimus voluptates reiciendis debitis,
@@ -24,11 +30,11 @@
       </header>
       <section>
         <h2>We design your landing page to get high convertion rates</h2>
-        <div>
+        <div class="grid-3-col">
           <div>
-            <img src="img/img1.jpg" alt="image one" />
+            <img class="img-sec" src="img/img1.jpg" alt="image one" />
             <h3>Start your campaign</h3>
-            <p>
+            <p class="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
               eius, velit distinctio reprehenderit optio debitis! Error omnis
               nihil quis laboriosam. Provident, impedit cum? Sint veritatis
@@ -36,9 +42,9 @@
             </p>
           </div>
           <div>
-            <img src="img/img2.jpg" alt="image one" />
+            <img class="img-sec" src="img/img2.jpg" alt="image one" />
             <h3>Claim your reward</h3>
-            <p>
+            <p class="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
               eius, velit distinctio reprehenderit optio debitis! Error omnis
               nihil quis laboriosam. Provident, impedit cum? Sint veritatis
@@ -46,9 +52,9 @@
             </p>
           </div>
           <div>
-            <img src="img/img3.jpg" alt="image one" />
+            <img class="img-sec" src="img/img3.jpg" alt="image one" />
             <h3>Engage new users</h3>
-            <p>
+            <p class="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
               eius, velit distinctio reprehenderit optio debitis! Error omnis
               nihil quis laboriosam. Provident, impedit cum? Sint veritatis
@@ -58,36 +64,38 @@
         </div>
       </section>
       <section>
-        <div>
-          <h2>Build and customize your perfect landing pag</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            placeat, magnam suscipit optio iusto odio ad, numquam harum quas
-            doloribus debitis adipisci enim consequuntur. Dolor quibusdam
-            sapiente eveniet quisquam eius
-          </p>
+        <div class="grid-2-col">
+          <img class="cus-img" src="img/img4.jpg" alt="" />
+
+          <div>
+            <h2 class="cus-header">
+              Build and customize your perfect landing page
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus placeat, magnam suscipit optio iusto odio ad, numquam
+              harum quas doloribus debitis adipisci enim consequuntur. Dolor
+              quibusdam sapiente eveniet quisquam eius
+            </p>
+          </div>
         </div>
-        <img src="img/img4.jpg" alt="" />
       </section>
       <section>
         <h2>Launch your campaign & start engaging new users</h2>
-        <div>
+        <div class="grid-3-col">
           <figure class="product">
-            <img src="img/product1.jpg" alt="Product" />
-            <div class="">
+            <img class="product-img" src="img/product1.jpg" alt="Product" />
+            <div class="box">
               <h3>Free</h3>
-              <ul class="">
+              <ul class="details">
                 <li>
-                  <span>Leisure and relaxing</span>
+                  <span>Up to 10 users monthly</span>
                 </li>
                 <li>
-                  <span>Comfortable all day!</span>
+                  <span>A/B testing</span>
                 </li>
                 <li>
-                  <span>Organic cotton</span>
-                </li>
-                <li>
-                  <span>Weighs 80 kg</span>
+                  <span>Limited updates</span>
                 </li>
               </ul>
               <div class="price">
@@ -98,21 +106,18 @@
           </figure>
 
           <figure class="product">
-            <img src="img/product3.jpg" alt="Product" />
-            <div class="">
+            <img class="product-img" src="img/product3.jpg" alt="Product" />
+            <div class="box">
               <h3>COMPANY</h3>
-              <ul class="">
+              <ul class="details">
                 <li>
-                  <span>Leisure and relaxing</span>
+                  <span>Up to 50 users monthly</span>
                 </li>
                 <li>
-                  <span>Comfortable all day!</span>
+                  <span>Unlimited updates</span>
                 </li>
                 <li>
-                  <span>Organic cotton</span>
-                </li>
-                <li>
-                  <span>Weighs 80 kg</span>
+                  <span>A/B Testing</span>
                 </li>
               </ul>
               <div class="price">
@@ -123,31 +128,30 @@
           </figure>
 
           <figure class="product">
-            <img src="img/product2.jpg" alt="Product" />
-            <div class="">
+            <img class="product-img" src="img/product2.jpg" alt="Product" />
+            <div class="box">
               <h3>PREMIUM</h3>
-              <ul class="">
+              <ul class="details">
                 <li>
-                  <span>Leisure and relaxing</span>
+                  <span>Up to 100 users monthly</span>
                 </li>
                 <li>
-                  <span>Comfortable all day!</span>
+                  <span>Unlimited updates</span>
                 </li>
                 <li>
-                  <span>Organic cotton</span>
-                </li>
-                <li>
-                  <span>Weighs 80 kg</span>
+                  <span>A/B Testing</span>
                 </li>
               </ul>
               <div class="price">
                 <strong>2450€</strong>
-                <a href="#" class="">Add to cart</a>
+                <a href="#" class="btn btn--small">Add to cart</a>
               </div>
             </div>
           </figure>
         </div>
       </section>
+
+      <footer>Copyright &copy; 2022 by Ahmed Sirag</footer>
     </div>
   </body>
 </html>
