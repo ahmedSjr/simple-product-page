@@ -6,11 +6,44 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #343a40;
+  border-top: 8px solid #6741d9;
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #6741d9;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #7048e8;
+}
+
+.btn--big {
+  padding: 16px 22px;
+  font-size: 18px;
+}
+
+.btn--small {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.super {
+  color: #6741d9;
 }
 
 header,
@@ -92,7 +125,7 @@ h3 {
 
 .quote {
   font-style: italic;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
   font-size: 18px;
   line-height: 1.6;
 }
@@ -103,15 +136,22 @@ h3 {
   column-gap: 40px;
 }
 
+.quote-section {
+  background-color: #7048e8;
+  padding: 20px;
+  color: #fff;
+}
+
 .img-sec {
   width: 100%;
   height: 200px;
+  margin-top: 20px;
   margin-bottom: 24px;
 }
 
 .cus-img {
-  width: 400px;
-  margin-bottom: 48px;
+  width: 350px;
+  /* margin-bottom: 48px; */
 }
 
 .product-img {
@@ -145,14 +185,22 @@ h3 {
   padding: 24px;
 }
 
+.feat-title {
+  color: #7048e8;
+}
+
+/* .testimonial-box {
+  background-color: #7048e8;
+} */
+
 footer {
-  background-color: #ff7400;
+  background-color: #7950f2;
 
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 footer p {
-  padding-top: 20px;
+  padding-top: 10px;
   color: #fff;
 }
